@@ -14,9 +14,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\src\\rudysCorner\\ContosoCrafts.Website\\ContosoCrafts.Website.csproj",
-      "projectName": "ContosoCrafts.Website",
-      "projectPath": "C:\\src\\rudysCorner\\ContosoCrafts.Website\\ContosoCrafts.Website.csproj",
+      "projectUniqueName": "C:\\src\\rudysCorner\\ContosoCrafts.Website\\RudysCorner.Website.csproj",
+      "projectName": "RudysCorner.Website",
+      "projectPath": "C:\\src\\rudysCorner\\ContosoCrafts.Website\\RudysCorner.Website.csproj",
       "packagesPath": "C:\\Users\\colin\\.nuget\\packages\\",
       "outputPath": "C:\\src\\rudysCorner\\ContosoCrafts.Website\\obj\\",
       "projectStyle": "PackageReference",

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "/wmCEZnLkaem/feT3Dj+qj3y4JwlRd6vo9LG7/tUkPEdLtkdJA+TD8EmSa6ZartGaX4jX4I5wyW2z2wKV9nRsw==",
+  "dgSpecHash": "wWWlhLBoyTxIq7GsH0Kdn4jPcX2CcASvRVgbIIZASLyOTfRFRWm3DPNcYOMglqmLCgS2lgmpUaLb/K3rOpD4FQ==",
   "success": true,
-  "projectFilePath": "C:\\src\\rudysCorner\\ContosoCrafts.Website\\ContosoCrafts.Website.csproj",
+  "projectFilePath": "C:\\src\\rudysCorner\\ContosoCrafts.Website\\RudysCorner.Website.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
