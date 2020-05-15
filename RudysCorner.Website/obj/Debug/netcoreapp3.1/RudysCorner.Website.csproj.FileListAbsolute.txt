@@ -11,8 +11,6 @@ C:\src\rudysCorner\RudysCorner.Website\bin\Debug\netcoreapp3.1\RudysCorner.Websi
 C:\src\rudysCorner\RudysCorner.Website\bin\Debug\netcoreapp3.1\RudysCorner.Website.Views.pdb
 C:\src\rudysCorner\RudysCorner.Website\obj\Debug\netcoreapp3.1\RudysCorner.Website.AssemblyInfoInputs.cache
 C:\src\rudysCorner\RudysCorner.Website\obj\Debug\netcoreapp3.1\RudysCorner.Website.AssemblyInfo.cs
-C:\src\rudysCorner\RudysCorner.Website\obj\Debug\netcoreapp3.1\RudysCorner.Website.csproj.CoreCompileInputs.cache
-C:\src\rudysCorner\RudysCorner.Website\obj\Debug\netcoreapp3.1\RudysCorner.Website.MvcApplicationPartsAssemblyInfo.cache
 C:\src\rudysCorner\RudysCorner.Website\obj\Debug\netcoreapp3.1\RudysCorner.Website.RazorAssemblyInfo.cache
 C:\src\rudysCorner\RudysCorner.Website\obj\Debug\netcoreapp3.1\RudysCorner.Website.RazorAssemblyInfo.cs
 C:\src\rudysCorner\RudysCorner.Website\obj\Debug\netcoreapp3.1\RudysCorner.Website.TagHelpers.input.cache
@@ -34,3 +32,6 @@ C:\src\rudysCorner\RudysCorner.Website\obj\Debug\netcoreapp3.1\RudysCorner.Websi
 C:\src\rudysCorner\RudysCorner.Website\obj\Debug\netcoreapp3.1\RudysCorner.Website.pdb
 C:\src\rudysCorner\RudysCorner.Website\obj\Debug\netcoreapp3.1\RudysCorner.Website.genruntimeconfig.cache
 C:\src\rudysCorner\RudysCorner.Website\obj\Debug\netcoreapp3.1\RudysCorner.Website.csproj.CopyComplete
+C:\src\rudysCorner\RudysCorner.Website\obj\Debug\netcoreapp3.1\RudysCorner.Website.csprojAssemblyReference.cache
+C:\src\rudysCorner\RudysCorner.Website\obj\Debug\netcoreapp3.1\RudysCorner.Website.csproj.CoreCompileInputs.cache
+C:\src\rudysCorner\RudysCorner.Website\obj\Debug\netcoreapp3.1\RudysCorner.Website.MvcApplicationPartsAssemblyInfo.cache

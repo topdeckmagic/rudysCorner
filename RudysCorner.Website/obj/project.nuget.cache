@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "l2fLH+aHU0vrgAgIQ08YqGeZSMRYtHlEPinHR9vuxLhIeVW7olofzMhP6404c47A1RO2lFjLow+3VdjKVHR8WA==",
+  "dgSpecHash": "y/uDCnco4LusOba46hhj+ZgRs39l54yxnSSym/d5Mir/Ajm1/p+Htq8I0OgcU/9SThGPS5tVQjMbOd3l6YSoMg==",
   "success": true,
   "projectFilePath": "C:\\src\\rudysCorner\\RudysCorner.Website\\RudysCorner.Website.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\colin\\.nuget\\packages\\jquery\\3.5.1\\jquery.3.5.1.nupkg.sha512"
+  ],
   "logs": []
 }
