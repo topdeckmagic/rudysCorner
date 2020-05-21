@@ -1,19 +1,10 @@
 ﻿@page
 @model ContosoCrafts.WebSite.Pages.IndexModel
 @{
-    ViewData["Title"] = "Home page";
+    ViewData["Title"] = "Welcome page";
 }
 
 <div>
-    <h1 class="display-4">Thundercats 3.0!</h1>
+    <h1 class="display-4">Welcome Page</h1>
 </div>
-
-<div class="card-columns">
-    @foreach (var product in Model.Products)
-    {
-        <div class="card">
-            <div class="card-img" style="background-image: url('@product.Image')"></div>
-            <div class="card-body"><h5 class="card-title">@product.Title</h5></div>
-        </div>
-    }
-</div>
+<img src="~/img/welcome.jpg" width="80%">
