@@ -63,6 +63,9 @@ a.navbar-brand {
     color: white;
 }
 
+.SUlogo {
+    margin-right: 30px;
+}
 /* Provide sufficient contrast against white background */
 a {
     color: #0366d6;
