@@ -58,6 +58,11 @@ a.navbar-brand {
     color: white;
 }
 
+.nav-link {
+    display: inline-block;
+    color: white;
+}
+
 /* Provide sufficient contrast against white background */
 a {
     color: #0366d6;
