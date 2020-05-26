@@ -1,4 +1,8 @@
-﻿﻿.checked {
+﻿.img-main {
+    width: 80%;
+}﻿
+
+.checked {
     color: orange;
 }
 
