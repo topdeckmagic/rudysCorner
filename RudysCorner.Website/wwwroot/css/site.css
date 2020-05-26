@@ -1,4 +1,5 @@
-﻿.img-main {
+﻿/* Creating a css class for managing the size of images on all pages in the project.*/
+.img-main {
     width: 80%;
 }﻿
 
