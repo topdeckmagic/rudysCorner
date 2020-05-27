@@ -19,9 +19,26 @@
 <h2>Drag and Drop</h2>
 <p>Drag the image back and forth between the two div elements.</p>
 
-<div id="div1" ondrop="drop(event)" ondragover="allowDrop(event)">
-    <img src="img_w3slogo.gif" draggable="true" ondragstart="drag(event)" id="drag1" width="88" height="31">
+<div class="POIList" id="GuidedTour" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+
+<div class="POIList" id="OtherPOI" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+<div class="POIList" id="POILibrary" ondrop="drop(event)" ondragover="allowDrop(event)">
+    <img src="~/img/poi.jpg" draggable="true" ondragstart="drag(event)" id="drag1" width="275" height="175">
+    <img src="~/img/poi.jpg" draggable="true" ondragstart="drag(event)" id="drag2" width="275" height="175">
 </div>
 
-<div id="div2" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+<ul id="sortable1" class="connectedSortable">
+    <li class="ui-state-default">Item 1</li>
+    <li class="ui-state-default">Item 2</li>
+    <li class="ui-state-default">Item 3</li>
+    <li class="ui-state-default">Item 4</li>
+    <li class="ui-state-default">Item 5</li>
+</ul>
 
+<ul id="sortable2" class="connectedSortable">
+    <li class="ui-state-highlight">Item 1</li>
+    <li class="ui-state-highlight">Item 2</li>
+    <li class="ui-state-highlight">Item 3</li>
+    <li class="ui-state-highlight">Item 4</li>
+    <li class="ui-state-highlight">Item 5</li>
+</ul>
