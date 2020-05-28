@@ -202,3 +202,7 @@ ul {
     padding: 10px;
     border: 1px solid black;
 }
+
+.main-title {
+    font-size: 24px;
+}
