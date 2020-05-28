@@ -204,16 +204,31 @@ ul {
 }
 
 .main-title {
-    font-size: 24px;
+    font-size: 60px;
+    font-weight: 400px;
+    z-index: 999;
+    color: white;
+    position: absolute;
+    top: 30%;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.5);
 }
 
 .background-video {
     height: 40%;
     width: 100%;
-    opacity: 0.25;
 }
 
 .container {
     padding: 0;
     margin: 0;
 }
+
+/*.blue-box {
+    width: 400px;
+    height: 350px;
+    background-color: #03517f;
+    position: fixed;
+    top: 0;
+    left: 0;
+}*/
