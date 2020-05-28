@@ -1,4 +1,6 @@
 ﻿/* Creating a css class for managing the size of images on all pages in the project.*/
+@import url(https://fonts.googleapis.com/css?family=Montserrat);
+
 .img-main {
     width: 80%;
 }﻿
@@ -212,6 +214,8 @@ ul {
     top: 30%;
     text-align: center;
     background-color: rgba(0, 0, 0, 0.5);
+    font-family: 'Montserrat';
+    font-weight: 700;
 }
 
 .background-video {
@@ -224,11 +228,14 @@ ul {
     margin: 0;
 }
 
-/*.blue-box {
-    width: 400px;
-    height: 350px;
-    background-color: #03517f;
-    position: fixed;
-    top: 0;
-    left: 0;
-}*/
+.welcome .main-content {
+    padding-top: 33%;
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+.welcome .left-content {
+}
+
+.welcome .side-content {
+}
