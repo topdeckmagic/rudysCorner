@@ -206,6 +206,18 @@ ul {
     border: 1px solid black;
 }
 
+.button-wrapper {
+    text-align: center;
+    margin-top: 32px;
+    margin-bottom: 32px;
+}
+
+.button-wrapper a {
+    padding: 16px 32px;
+    border: 2px solid #aa0000;
+    color: #aa0000;
+}
+
 .background-image {
     position: relative;
 }
