@@ -231,8 +231,9 @@ ul {
     font-weight: 700;
     position: absolute;
     top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    transform: translate(0, -50%);
+    background-color: rgba(0,0,0,0.5);
+    padding: 24px 10%;
 }
 
 .main-title span {
