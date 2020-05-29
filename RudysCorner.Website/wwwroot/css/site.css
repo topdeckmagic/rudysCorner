@@ -303,7 +303,7 @@ ul {
     font-weight: 700;
 }
 
-.welcome h2 {
+.welcome h2, .poi .poi-name {
     font-family: 'Roboto Slab';
     color: #aa0000;
 }
@@ -314,4 +314,8 @@ ul {
 
 .poi .map {
     max-width: 100%;
+}
+
+.poi .icon-actions {
+    text-align: right;
 }
