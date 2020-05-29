@@ -2,6 +2,10 @@
 @import url(https://fonts.googleapis.com/css?family=Montserrat);
 @import url(https://fonts.googleapis.com/css?family=Roboto+Slab);
 
+div.container {
+    margin: auto;
+}
+
 .img-main {
     width: 80%;
 }﻿
