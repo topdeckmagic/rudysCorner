@@ -6,6 +6,10 @@ div.container {
     margin: auto;
 }
 
+.text-body {
+    margin-left: 200px;
+}
+
 .img-main {
     width: 80%;
 }﻿
