@@ -307,3 +307,11 @@ ul {
     font-family: 'Roboto Slab';
     color: #aa0000;
 }
+
+.poi .img-main {
+    width: 100%;
+}
+
+.poi .map {
+    max-width: 100%;
+}
