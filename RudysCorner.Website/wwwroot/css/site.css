@@ -308,6 +308,14 @@ ul {
     color: #aa0000;
 }
 
+.poi {
+    font-family: 'Montserrat';
+}
+
+.poi .sub-title, .poi .faq, .poi .description {
+    font-size: 16px;
+}
+
 .poi .img-main {
     width: 100%;
 }
