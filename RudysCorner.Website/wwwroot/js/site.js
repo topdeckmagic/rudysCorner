@@ -19,3 +19,11 @@ function drop(ev) {
     var data = ev.dataTransfer.getData("text");
     ev.target.appendChild(document.getElementById(data));
 }
+
+//toggleFavorite() when clicking to favorite or unfavorite a POI
+function toggleFavorite(ev) {
+    ev.preventDefault();
+    document.getElementById("favorite-icon").setAttribute("src",
+        ev.target.src === "http://localhost:5000/img/POIs/favorited.png" ?
+            "/img/POIs/not-favorited.png" : "/img/POIs/favorited.png");
+}
