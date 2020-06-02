@@ -5,8 +5,8 @@
     "Title": "Bannan Engineering",
     "Description": "The home of computer science classrooms",
     "FAQ": [
-      { "FAQ1": "What is your quest?" },
-      { "FAQ2": "What is your favorite color" }
+      "What is your quest?",
+      "What is your favorite color"
     ]
   }
 ]
