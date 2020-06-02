@@ -1,0 +1,12 @@
+[
+  {
+    "Id": "BANN",
+    "img": "~/img/POIs/bannan1.jpg",
+    "Title": "Bannan Engineering",
+    "Description": "The home of computer science classrooms",
+    "FAQ": [
+      { "FAQ1": "What is your quest?" },
+      { "FAQ2": "What is your favorite color" }
+    ]
+  }
+]
