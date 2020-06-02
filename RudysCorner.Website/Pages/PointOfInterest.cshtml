@@ -12,7 +12,7 @@
             <span class="current">Bannan Engineering</span>
         </div>
         <div class="icon-actions col-6">
-            <a href="#"><img class="poi-icon" src="~/img/POIs/not-favorited.png" /></a>
+            <a href="#" onclick="toggleFavorite(event)"><img id="favorite-icon" class="poi-icon" src="~/img/POIs/not-favorited.png" /></a>
             <a href="#"><img class="poi-icon" src="~/img/POIs/share.png" /></a>
             <a asp-page="/PointOfInterest"><img class="poi-icon" src="~/img/POIs/skip.png" /></a>
         </div>
