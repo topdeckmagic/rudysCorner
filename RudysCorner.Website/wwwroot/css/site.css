@@ -328,6 +328,35 @@ ul {
     text-align: right;
 }
 
+.poi .accordion > .card {
+    border: none;
+    border-bottom: 1px solid #088099 !important;
+    border-radius: unset;
+}
+
+.poi .card .btn-link {
+    color: #088099;
+}
+
+.poi .accordion > .card .card-header {
+    background: none;
+}
+
+.poi .card-header {
+    padding: 0;
+}
+
+.poi .btn-link {
+    width: 100%;
+    border-radius: unset;
+    padding: 0.75rem 1.25rem;
+}
+
+.poi .btn-link:not(.collapsed) {
+    background-color: #088099;
+    color: white;
+}
+
 html, body {
     width: 100%;
     height: 100%;
