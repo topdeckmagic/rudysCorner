@@ -340,51 +340,51 @@ ul {
     margin: 16px 0;
 }
 
-.poi .faq {
+.rudy .faq {
     margin: 16px 0;
 }
 
-.poi .accordion > .card {
+.rudy .accordion > .card {
     border: none;
     border-bottom: 1px solid #088099 !important;
     border-radius: unset;
 }
 
-.poi .card.faq-title {
+.rudy .card.faq-title {
     text-align: center;
     padding-bottom: 16px;
     font-weight: 600;
 }
 
-.poi .card .btn-link {
+.rudy .card .btn-link {
     color: #088099;
 }
 
-.poi .accordion > .card .card-header {
+.rudy .accordion > .card .card-header {
     background: none;
 }
 
-.poi .card-header {
+.rudy .card-header {
     padding: 0;
     border: none;
 }
 
-.poi .btn-link {
+.rudy .btn-link {
     width: 100%;
     border-radius: unset;
     padding: 0.75rem 1.25rem;
 }
 
-.poi .btn-link:not(.collapsed) {
+.rudy .btn-link:not(.collapsed) {
     background-color: #088099;
     color: white;
 }
 
-.poi .card-body {
+.rudy .card-body {
     padding: 0;
 }
 
-.poi .answer {
+.rudy .answer {
     padding: 16px 0;
 }
 
