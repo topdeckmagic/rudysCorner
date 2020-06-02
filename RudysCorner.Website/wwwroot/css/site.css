@@ -2,6 +2,10 @@
 @import url(https://fonts.googleapis.com/css?family=Montserrat);
 @import url(https://fonts.googleapis.com/css?family=Roboto+Slab);
 
+main {
+    margin-bottom: 120px;
+}
+
 div.container {
     margin: auto;
 }
@@ -326,6 +330,10 @@ ul {
 
 .poi .icon-actions {
     text-align: right;
+}
+
+.poi .description {
+    margin: 16px 0;
 }
 
 .poi .faq {
