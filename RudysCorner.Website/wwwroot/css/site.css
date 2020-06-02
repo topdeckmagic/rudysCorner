@@ -328,10 +328,20 @@ ul {
     text-align: right;
 }
 
+.poi .faq {
+    margin: 16px 0;
+}
+
 .poi .accordion > .card {
     border: none;
     border-bottom: 1px solid #088099 !important;
     border-radius: unset;
+}
+
+.poi .card.faq-title {
+    text-align: center;
+    padding-bottom: 16px;
+    font-weight: 600;
 }
 
 .poi .card .btn-link {
@@ -344,6 +354,7 @@ ul {
 
 .poi .card-header {
     padding: 0;
+    border: none;
 }
 
 .poi .btn-link {
@@ -355,6 +366,14 @@ ul {
 .poi .btn-link:not(.collapsed) {
     background-color: #088099;
     color: white;
+}
+
+.poi .card-body {
+    padding: 0;
+}
+
+.poi .answer {
+    padding: 16px 0;
 }
 
 html, body {
