@@ -8,6 +8,7 @@ using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
+using RudysCorner.Website.services;
 
 namespace ContosoCrafts.Website
 {
@@ -25,6 +26,7 @@ namespace ContosoCrafts.Website
         {
             services.AddRazorPages();
             services.AddTransient<JsonFileProductService>();
+            services.AddTransient<JsonFilePoiService>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
