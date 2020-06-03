@@ -5,6 +5,7 @@
     "Title": "Bannan Engineering",
     "Description": "The home of computer science classrooms",
     "LongDescription": "",
+    "NextStop": "",
     "FAQ": [
       "What is your quest?",
       "What is your favorite color",
@@ -17,6 +18,7 @@
     "Title": "The Cafeteria",
     "Description": "Where the food is!",
     "LongDescription": "",
+    "NextStop": "",
     "FAQ": [
       "What is your quest?",
       "What is your favorite color"
