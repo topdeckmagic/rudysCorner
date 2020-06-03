@@ -15,9 +15,10 @@
             <a href="#" onclick="toggleFavorite(event)"><img id="favorite-icon" class="poi-icon" src="~/img/POIs/not-favorited.png" /></a>
             <a href="#"><img class="poi-icon" src="~/img/POIs/share.png" /></a>
             <a asp-page="/PointOfInterest"><img class="poi-icon" src="~/img/POIs/skip.png" /></a>
+            <a asp-page="/FollowUp">End</a>
         </div>
     </div>
-    <h1 class="poi-name">@Model.Poi.Title</h1>
+    <h1 class="H1">@Model.Poi.Title</h1>
     <h2 class="sub-title">@Model.Poi.Description</h2>
     <div class="row">
         <div class="left-content col-8">
