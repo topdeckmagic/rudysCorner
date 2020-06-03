@@ -303,7 +303,7 @@ ul {
     font-weight: 700;
 }
 
-.welcome h2, .H1 {
+.welcome h2, .H1, .roboto {
     font-family: 'Roboto Slab';
     color: #aa0000;
 }
@@ -336,7 +336,7 @@ ul {
     margin: 16px 0;
 }
 
-.rudy {
+.rudy, .montserrat {
     font-family: 'Montserrat';
 }
 
@@ -456,4 +456,37 @@ ul {
 
 .followup .share-all a, .followup .next-steps a {
     text-decoration: underline;
+}
+
+#share-dialog {
+    position: fixed;
+    z-index: 999;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: white;
+    border: 1px solid black;
+    padding: 32px;
+    display: none;
+}
+
+#share-dialog h2 {
+    font-size: 16px;
+}
+
+#share-dialog input {
+    width: 70%;
+    padding: 0;
+    border: 1px solid black;
+    padding-left: 8px;
+}
+
+.share-url {
+    margin-top: 24px;
+}
+
+#share-dialog button {
+    background-color: #a91500;
+    color: white;
+    border: none;
 }
