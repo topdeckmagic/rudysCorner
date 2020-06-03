@@ -4,6 +4,7 @@
     "img": "/img/POIs/bannan1.jpg",
     "Title": "Bannan Engineering",
     "Description": "The home of computer science classrooms",
+    "LongDescription": "",
     "FAQ": [
       "What is your quest?",
       "What is your favorite color",
@@ -15,6 +16,7 @@
     "img": "/img/POIs/cafeteria1.jpg",
     "Title": "The Cafeteria",
     "Description": "Where the food is!",
+    "LongDescription": "",
     "FAQ": [
       "What is your quest?",
       "What is your favorite color"
