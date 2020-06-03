@@ -393,13 +393,34 @@ ul {
     float: left;
 }
 
-.followup .highlight .right {
-    margin-left: 210px;
+.followup .right {
     padding-left: 16px;
+}
+
+.followup .highlights .right {
+    margin-left: 210px;
+}
+
+.followup .next-steps .right {
+    margin-left: 136px;
 }
 
 .followup .thumbnail {
     width: 180px;
+}
+
+.followup .next-step {
+    position: relative;
+}
+
+.followup .next-step-img {
+    width: 120px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.followup .thumbnail, .followup .next-step-img {
     float: left;
 }
 
@@ -416,6 +437,7 @@ ul {
     float: right;
 }
 
-.followup .next-step-img {
-    width: 180px;
+.followup .share-all a, .followup .next-steps a {
+    color: #088099;
+    font-weight: 700;
 }
