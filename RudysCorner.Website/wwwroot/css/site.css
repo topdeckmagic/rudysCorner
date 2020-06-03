@@ -210,10 +210,10 @@ ul {
     color: #f1f1f1;
 }
 
-#div1, #div2 {
+#div1, #div2, #div3 {
     float: left;
-    width: 100px;
-    height: 35px;
+    width: 200px;
+    height: 250px;
     margin: 10px;
     padding: 10px;
     border: 1px solid black;
