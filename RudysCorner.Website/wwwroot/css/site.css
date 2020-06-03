@@ -297,17 +297,11 @@ ul {
     padding: 16px;
 }
 
-/*.welcome .left-content {
-}
-
-.welcome .side-content {
-}*/
-
 .welcome .question {
     font-weight: 700;
 }
 
-.welcome h2, .poi .poi-name {
+.welcome h2, .H1 {
     font-family: 'Roboto Slab';
     color: #aa0000;
 }
