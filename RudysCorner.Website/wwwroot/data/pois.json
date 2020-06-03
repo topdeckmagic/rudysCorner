@@ -6,6 +6,17 @@
     "Description": "The home of computer science classrooms",
     "FAQ": [
       "What is your quest?",
+      "What is your favorite color",
+      "What is the fully burdened..."
+    ]
+  },
+  {
+    "Id": "CAFE",
+    "img": "/img/POIs/cafeteria1.jpg",
+    "Title": "The Cafeteria",
+    "Description": "Where the food is!",
+    "FAQ": [
+      "What is your quest?",
       "What is your favorite color"
     ]
   }
