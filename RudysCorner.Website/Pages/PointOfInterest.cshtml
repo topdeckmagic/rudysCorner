@@ -13,7 +13,7 @@
         </div>
         <div class="icon-actions col-6">
             <a href="#" onclick="toggleFavorite(event)"><img id="favorite-icon" class="poi-icon" src="~/img/POIs/not-favorited.png" /></a>
-            <a href="#"><img class="poi-icon" src=@Model.Poi.Image /></a>
+            <a href="#"><img class="poi-icon" src="~/img/POIs/share.png" /></a>
             <a asp-page="/PointOfInterest"><img class="poi-icon" src="~/img/POIs/skip.png" /></a>
         </div>
     </div>
@@ -21,7 +21,7 @@
     <h2 class="sub-title">@Model.Poi.Description</h2>
     <div class="row">
         <div class="left-content col-8">
-            <img class="img-main" src="~/img/POIs/bannan1.jpg" />
+            <img class="img-main" src=@Model.Poi.Image.TrimEnd('/') />
             <div class="description">@Model.Poi.Description</div>
         </div>
         <div class="right-content col-4">
@@ -41,7 +41,7 @@
                             <div class="card-header" id=@ch>
                                 <h5 class="mb-0">
                                     <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target=@dt aria-expanded="false" aria-controls=@ac>
-                                        @Model.Poi.FAQ[0]
+                                        @Model.Poi.FAQ[i]
                                     </button>
                                 </h5>
                             </div>
