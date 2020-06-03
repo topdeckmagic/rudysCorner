@@ -31,6 +31,20 @@
         <main role="main" class="pb-3">
             @RenderBody()
         </main>
+        <div id="share-dialog">
+            <h1 class="H2 roboto">Please choose a method for sharing:</h1>
+            <h2>Click out of the box to cancel.</h2>
+            <div class="share-email">
+                <input type="text" id="email" name="email">
+                <button>Email</button>
+                <p class="montserrat">Preview of content to be sent:</p>
+                <img class="img-main" src="~/img/POIs/bannan1.jpg" />
+            </div>
+            <div class="share-url">
+                <input type="text" id="url" name="url" value="https://rudyscorner.azurewebsites.net/BannanEngineering">
+                <button>Copy URL</button>
+            </div>
+        </div>
     </div>
 
     <footer class="border-top footer text-muted bg-footer">
