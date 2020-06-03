@@ -7,7 +7,6 @@ html, body {
     height: 100%;
     margin: 0px;
     padding: 0px;
-    overflow-x: hidden;
 }
 
 main {
@@ -166,7 +165,7 @@ ul {
 }
 
 .footer {
-    position: absolute;
+    position: fixed;
     bottom: 0;
     width: 100%;
     white-space: nowrap;
