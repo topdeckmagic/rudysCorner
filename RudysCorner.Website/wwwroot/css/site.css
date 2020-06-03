@@ -2,6 +2,14 @@
 @import url(https://fonts.googleapis.com/css?family=Montserrat);
 @import url(https://fonts.googleapis.com/css?family=Roboto+Slab);
 
+html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+}
+
 main {
     margin-bottom: 120px;
 }
@@ -382,10 +390,6 @@ ul {
     padding: 16px 0;
 }
 
-html, body {
-    width: 100%;
-    height: 100%;
-    margin: 0px;
-    padding: 0px;
-    overflow-x: hidden;
+.followup .H1 {
+    text-align: center;
 }
