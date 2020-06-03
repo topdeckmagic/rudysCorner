@@ -27,3 +27,19 @@ function toggleFavorite(ev) {
         ev.target.src === "http://localhost:5000/img/POIs/favorited.png" ?
             "/img/POIs/not-favorited.png" : "/img/POIs/favorited.png");
 }
+
+$(document).click(function (ev) {
+    $target = $(ev.target);
+    if (!$target.closest('#share-dialog').length && $('#share-dialog').is(":visible")) {
+        $('#share-dialog').hide();
+        $("main").css("opacity", "1");
+    }
+});
+
+function displayShareDialog(ev) {
+    ev.preventDefault();
+    setTimeout(function () {
+        $("#share-dialog").css("display", "block");
+        $("main").css("opacity", "0.25");
+    }, 50);
+}
