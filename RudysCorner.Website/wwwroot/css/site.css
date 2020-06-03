@@ -308,8 +308,8 @@ ul {
     color: #aa0000;
 }
 
-.poi {
-    font-family: 'Montserrat';
+.H2 {
+    font-size: 24px;
 }
 
 .poi .sub-title, .poi .faq, .poi .description {
@@ -334,6 +334,10 @@ ul {
 
 .poi .description {
     margin: 16px 0;
+}
+
+.rudy {
+    font-family: 'Montserrat';
 }
 
 .rudy .faq {
@@ -440,4 +444,16 @@ ul {
 .followup .share-all a, .followup .next-steps a {
     color: #088099;
     font-weight: 700;
+}
+
+.followup .share-all {
+    margin: 24px 0;
+}
+
+.followup .share-all a {
+    margin-left: 24px;
+}
+
+.followup .share-all a, .followup .next-steps a {
+    text-decoration: underline;
 }
