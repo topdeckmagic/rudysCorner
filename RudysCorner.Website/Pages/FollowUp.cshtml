@@ -4,8 +4,16 @@
     ViewData["Title"] = "FollowUp";
 }
 
-<div>
-    <h1 class="display-4">Follow Up</h1>
+<div class="followup">
+    <div class="top">
+        <a asp-page="/Index">Welcome</a>
+        <span class="separator">></span>
+        <a asp-page="/PointOfInterest">Tour</a>
+        <span class="separator">></span>
+        <span class="current">Follow Up</span>
+    </div>
+    <h1 class="poi-name">Your Tour Highlights</h1>
+    <div class="highlights"></div>
+    <div class="share-all"></div>
+    <div class="next-steps"></div>
 </div>
-<img src="~/img/followup.jpg" class="img-main"/>
-
