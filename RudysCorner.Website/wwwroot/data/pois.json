@@ -4,8 +4,8 @@
     "img": "/img/POIs/bannan1.jpg",
     "Title": "Bannan Engineering",
     "Description": "The home of computer science classrooms",
-    "LongDescription": "",
-    "NextStop": "",
+    "LongDescription": "The home of computer science classrooms",
+    "NextStop": "FIN",
     "FAQ": [
       "What is your quest?",
       "What is your favorite color",
@@ -23,7 +23,23 @@
     "Title": "The Cafeteria",
     "Description": "Where the food is!",
     "LongDescription": "",
-    "NextStop": "",
+    "NextStop": "BANN",
+    "FAQ": [
+      "What is your quest?",
+      "What is your favorite color"
+    ],
+    "Answers": [
+      "To seek the holy grail",
+      "Green"
+    ]
+  },
+  {
+    "Id": "FIN",
+    "img": "/img/POIs/vihilbert2.jpg",
+    "Title": "Student Financial Services",
+    "Description": "Where the money is!",
+    "LongDescription": "Where the money is!",
+    "NextStop": "CAFE",
     "FAQ": [
       "What is your quest?",
       "What is your favorite color"
