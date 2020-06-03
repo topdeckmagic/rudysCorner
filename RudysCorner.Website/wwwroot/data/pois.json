@@ -10,6 +10,11 @@
       "What is your quest?",
       "What is your favorite color",
       "What is the fully burdened..."
+    ],
+    "Answers": [
+      "To seek the holy grail",
+      "Green",
+      "I don't aghhhhhhhhhhhhhhh"
     ]
   },
   {
@@ -22,6 +27,10 @@
     "FAQ": [
       "What is your quest?",
       "What is your favorite color"
+    ],
+    "Answers": [
+      "To seek the holy grail",
+      "Green"
     ]
   }
 ]

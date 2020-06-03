@@ -18,6 +18,7 @@ namespace RudysCorner.Website.Models
         public string LongDescription { get; set; }
         public string NextStop { get; set; }
         public string[] FAQ { get; set; }
+        public string[] Answers { get; set; }
 
         public override string ToString() => JsonSerializer.Serialize(this);
     }
