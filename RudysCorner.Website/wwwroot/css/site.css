@@ -153,11 +153,6 @@ html {
     min-height: 100%;
 }
 
-body {
-    /* Margin bottom by footer height */
-    margin-bottom: 60px;
-}
-
 p {
     font-family: 'Nunito', sans-serif;
 }
@@ -392,4 +387,36 @@ ul {
 
 .followup .H1 {
     text-align: center;
+}
+
+.followup .highlight .left {
+    width: 210px;
+    float: left;
+}
+
+.followup .highlight .right {
+    margin-left: 210px;
+    padding-left: 16px;
+}
+
+.followup .thumbnail {
+    width: 180px;
+    float: left;
+}
+
+.followup .follow-up-icon {
+    width: 24px;
+}
+
+.followup .share-all .icon {
+    width: 36px;
+}
+
+.followup .left .follow-up-icon {
+    width: 24px;
+    float: right;
+}
+
+.followup .next-step-img {
+    width: 180px;
 }
