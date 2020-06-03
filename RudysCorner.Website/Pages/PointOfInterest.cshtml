@@ -14,7 +14,7 @@
         <div class="icon-actions col-6">
             <a href="#" onclick="toggleFavorite(event)"><img id="favorite-icon" class="poi-icon" src="~/img/POIs/not-favorited.png" /></a>
             <a href="#"><img class="poi-icon" src="~/img/POIs/share.png" /></a>
-            <a asp-page="/PointOfInterest"><img class="poi-icon" src="~/img/POIs/skip.png" /></a>
+            <a asp-page="/PointOfInterest" asp-route-Id="@Model.Poi.NextStop"><img class="poi-icon" src="~/img/POIs/skip.png" /></a>
             <a asp-page="/FollowUp">End</a>
         </div>
     </div>
@@ -26,7 +26,7 @@
             <div class="description">@Model.Poi.LongDescription</div>
         </div>
         <div class="right-content col-4">
-            <img class="map" src="~/img/POIs/SU_map_labelled1.png" />
+            <a asp-page="/PointOfInterest" asp-route-Id="@Model.Poi.NextStop"><img class="map" src="~/img/POIs/SU_map_labelled1.png" /></a>
             <div class="faq">
                 <div class="accordion pull-right" id="accordionExample">
                     <div class="card faq-title">
