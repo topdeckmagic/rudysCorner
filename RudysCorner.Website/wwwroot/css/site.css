@@ -534,11 +534,11 @@ ul {
     }
 }
 
-.create-tour .card-title {
+.create-tour .card-title, .edit-tour .card-title {
     text-align: center;
 }
 
-.create-tour .main-content {
+.create-tour .main-content, .edit-tour .main-content {
     margin-top: 16px;
 }
 
@@ -557,19 +557,19 @@ div.poi-card:hover {
     border-radius: unset;
 }
 
-.create-tour .headers .wrapper h2 {
+.create-tour .headers .wrapper h2, .edit-tour .headers .wrapper h2 {
     width: 200px;
 }
 @media only screen and (max-width: 992px) {
-    #div1, #div2, #div3, .create-tour .headers .H2 {
+    #div1, #div2, #div3, .create-tour .headers .wrapper .H2, .edit-tour .headers .wrapper .H2 {
         width: 120px;
     }
 
-    .create-tour .headers .H2 {
+    .create-tour .headers .H2, .edit-tour .headers .H2 {
         font-size: 16px;
     }
 
-    .create-tour .card-title {
+    .create-tour .card-title, .edit-tour .card-title {
         font-size: 12px;
         margin-bottom: 0;
     }
