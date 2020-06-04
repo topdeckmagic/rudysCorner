@@ -488,6 +488,9 @@ ul {
 
 #share-dialog input {
     width: 70%;
+}
+
+#share-dialog input, .actions-area input {
     padding: 0;
     border: 1px solid black;
     padding-left: 8px;
@@ -497,14 +500,14 @@ ul {
     margin-top: 24px;
 }
 
-#share-dialog button {
+#share-dialog button, .actions-area button {
     background-color: #a91500;
     color: white;
     border: none;
     margin: 1px;
 }
 
-#share-dialog button:hover {
+#share-dialog button:hover, .actions-area button:hover {
     background-color: white;
     color: #a91500;
     border: 1px solid #a91500;
@@ -560,6 +563,7 @@ div.poi-card:hover {
 .create-tour .headers .wrapper h2, .edit-tour .headers .wrapper h2 {
     width: 200px;
 }
+
 @media only screen and (max-width: 992px) {
     #div1, #div2, #div3, .create-tour .headers .wrapper .H2, .edit-tour .headers .wrapper .H2 {
         width: 120px;
@@ -573,4 +577,9 @@ div.poi-card:hover {
         font-size: 12px;
         margin-bottom: 0;
     }
+}
+
+.actions-area {
+    text-align: right;
+    margin-top: 32px;
 }
