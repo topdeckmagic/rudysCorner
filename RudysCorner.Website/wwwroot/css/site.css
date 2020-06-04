@@ -560,3 +560,17 @@ div.poi-card:hover {
 .create-tour .headers .wrapper h2 {
     width: 200px;
 }
+@media only screen and (max-width: 992px) {
+    #div1, #div2, #div3, .create-tour .headers .H2 {
+        width: 120px;
+    }
+
+    .create-tour .headers .H2 {
+        font-size: 16px;
+    }
+
+    .create-tour .card-title {
+        font-size: 12px;
+        margin-bottom: 0;
+    }
+}
