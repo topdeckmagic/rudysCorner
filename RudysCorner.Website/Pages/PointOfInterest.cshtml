@@ -12,9 +12,9 @@
             <span class="current">@Model.Poi.Title</span>
         </div>
         <div class="icon-actions col-6">
-            <a href="#" onclick="toggleFavorite(event)"><img id="favorite-icon" class="poi-icon" src="~/img/POIs/not-favorited.png" /></a>
-            <a href="#" onclick="displayShareDialog(event)"><img class="poi-icon" src="~/img/POIs/share.png" /></a>
-            <a asp-page="/PointOfInterest" asp-route-Id="@Model.Poi.NextStop"><img class="poi-icon" src="~/img/POIs/skip.png" /></a>
+            <a href="#" onclick="toggleFavorite(event)"><img id="favorite-icon" class="poi-icon" src="~/img/POIs/not-favorited.png" alt="Favorite icon" /></a>
+            <a href="#" onclick="displayShareDialog(event)"><img class="poi-icon" src="~/img/POIs/share.png" alt="Share icon" /></a>
+            <a asp-page="/PointOfInterest" asp-route-Id="@Model.Poi.NextStop"><img class="poi-icon" src="~/img/POIs/skip.png" alt="Skip icon" /></a>
             <a asp-page="/FollowUp">End</a>
         </div>
     </div>
@@ -22,11 +22,11 @@
     <h2 class="sub-title">@Model.Poi.Description</h2>
     <div class="row">
         <div class="left-content col-8">
-            <img class="img-main" src=@Model.Poi.Image.TrimEnd('/') />
+            <img class="img-main" src=@Model.Poi.Image.TrimEnd('/') alt="@Model.Poi.Title" />
             <div class="description">@Model.Poi.LongDescription</div>
         </div>
         <div class="right-content col-4">
-            <a asp-page="/PointOfInterest" asp-route-Id="@Model.Poi.NextStop"><img class="map" src="~/img/POIs/SU_map_labelled1.png" /></a>
+            <a asp-page="/PointOfInterest" asp-route-Id="@Model.Poi.NextStop"><img class="map" src="~/img/POIs/SU_map_labelled1.png" alt="@Model.Poi.Title on campus map" /></a>
             <div class="faq">
                 <div class="accordion pull-right" id="accordionExample">
                     <div class="card faq-title">
