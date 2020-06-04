@@ -11,17 +11,50 @@
     <a asp-page="EditTour">Edit Tour</a>
     <a asp-page="Analytics">Analytics</a>
 </div>
+<div class="Welcome">
+    <div class="main-content row">
+        <div class="left-content col-12">
+            <h2>Tour Creation</h2>
+        </div>
+    </div>
+</div>
+
 <div class="text-body">
-    <div id="div1" ondrop="drop(event)" ondragover="allowDrop(event)">
-        <img src="~/img/SUlogo.png" draggable="true" ondragstart="drag(event)" id="drag1" width="160" height="30">
-        <img src="~/img/SUlogo.png" draggable="true" ondragstart="drag(event)" id="drag2" width="160" height="30">
-    </div>
+    <div class="main-content row">
+        <div class="col-sm-4">
+            <p>Guided Tour Stops</p>
+            <div id="div1" ondrop="drop(event)" ondragover="allowDrop(event)">
 
-    <div id="div2" ondrop="drop(event)" ondragover="allowDrop(event)">
+            </div>
+        </div>
+        <div class="col-sm-4">
+            <p>Map Points of Interest</p>
+            <div id="div2" ondrop="drop(event)" ondragover="allowDrop(event)">
 
-    </div>
-
-    <div id="div3" ondrop="drop(event)" ondragover="allowDrop(event)">
-
+            </div>
+        </div>
+        <div class="col-sm-4">
+            <p>Unused Points of Interest</p>
+            <div id="div3" ondrop="drop(event)" ondragover="allowDrop(event)">
+                <div class="card" draggable="true" ondragstart="drag(event)" id="drag1">
+                    <img class="card-img-top img-fluid" src="~/img/POIs/bannan1.jpg" alt="image" />
+                    <div class="card-body">
+                        <h3 class="card-title">Bannon</h3>
+                    </div>
+                </div>
+                <div class="card" draggable="true" ondragstart="drag(event)" id="drag2">
+                    <img class="card-img-top img-fluid" src="~/img/POIs/cafeteria1.jpg" alt="image" />
+                    <div class="card-body">
+                        <h3 class="card-title">Cafeteria</h3>
+                    </div>
+                </div>
+                <div class="card" draggable="true" ondragstart="drag(event)" id="drag3">
+                    <img class="card-img-top img-fluid" src="~/img/POIs/vihilbert2.jpg" alt="image" />
+                    <div class="card-body">
+                        <h3 class="card-title">Financial Services</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 </div>
