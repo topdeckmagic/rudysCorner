@@ -10,9 +10,46 @@
     <a asp-page="#">Edit Tour</a>
     <a asp-page="Analytics">Analytics</a>
 </div>
-<div class="edit-tour admin">
-    <div class="text-body">
-        <h1 class="display-4">Edit Tour Page</h1>
-        <img src="~/img/EditTour.jpg" class="img-main">
+
+<div class="create-tour">
+    <h1 class="H1">Tour Creation</h1>
+    <div>You can click and drag any Point of Interest to any column to change its status in the tour.</div>
+
+    <div class="main-content row">
+        <div class="col-sm-4">
+            <h2 class="H2">Guided Tour Stops</h2>
+            <div id="div1" ondrop="drop(event)" ondragover="allowDrop(event)">
+
+            </div>
+        </div>
+        <div class="col-sm-4">
+            <h2 class="H2">Map Points of Interest</h2>
+            <div id="div2" ondrop="drop(event)" ondragover="allowDrop(event)">
+
+            </div>
+        </div>
+        <div class="col-sm-4">
+            <h2 class="H2">Unused Points of Interest</h2>
+            <div id="div3" ondrop="drop(event)" ondragover="allowDrop(event)">
+                <div class="card poi-card" draggable="true" ondragstart="drag(event)" id="drag1">
+                    <img class="card-img-top img-fluid" src="~/img/POIs/bannan1.jpg" alt="image" />
+                    <div class="card-body">
+                        <h3 class="card-title">Bannon</h3>
+                    </div>
+                </div>
+                <div class="card poi-card" draggable="true" ondragstart="drag(event)" id="drag2">
+                    <img class="card-img-top img-fluid" src="~/img/POIs/cafeteria1.jpg" alt="image" />
+                    <div class="card-body">
+                        <h3 class="card-title">Cafeteria</h3>
+                    </div>
+                </div>
+                <div class="card poi-card" draggable="true" ondragstart="drag(event)" id="drag3">
+                    <img class="card-img-top img-fluid" src="~/img/POIs/vihilbert2.jpg" alt="image" />
+                    <div class="card-body">
+                        <h3 class="card-title">Financial Services</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 </div>
