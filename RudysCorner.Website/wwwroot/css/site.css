@@ -489,4 +489,30 @@ ul {
     background-color: #a91500;
     color: white;
     border: none;
+    margin: 1px;
+}
+
+#share-dialog button:hover {
+    background-color: white;
+    color: #a91500;
+    border: 1px solid #a91500;
+    margin: 0;
+}
+
+#share-dialog img {
+    width: 400px;
+}
+
+@media only screen and (max-width: 767px) {
+    #share-dialog img {
+        width: 200px;
+    }
+
+    #share-dialog h1, h3 {
+        font-size: 16px;
+    }
+
+    #share-dialog h2, input, button, p {
+        font-size: 12px;
+    }
 }
