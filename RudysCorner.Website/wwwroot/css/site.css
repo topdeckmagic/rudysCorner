@@ -556,3 +556,7 @@ div.poi-card:hover {
 .poi-card img {
     border-radius: unset;
 }
+
+.create-tour .headers .wrapper h2 {
+    width: 200px;
+}
