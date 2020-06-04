@@ -213,8 +213,7 @@ ul {
 #div1, #div2, #div3 {
     float: left;
     width: 200px;
-    height: 250px;
-    margin: 10px;
+    height: 100%;
     padding: 10px;
     border: 1px solid black;
 }
@@ -528,4 +527,27 @@ ul {
     #share-dialog h2, input, button, p {
         font-size: 12px;
     }
+}
+
+.create-tour .card-title {
+    text-align: center;
+}
+
+.create-tour .main-content {
+    margin-top: 16px;
+}
+
+div.poi-card {
+    border-radius: unset;
+    border: 2px solid #e9ecef;
+    margin-bottom: 16px;
+}
+
+div.poi-card:hover {
+    cursor: grab;
+    border: 4px solid red;
+}
+
+.poi-card img {
+    border-radius: unset;
 }
