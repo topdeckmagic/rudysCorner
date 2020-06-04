@@ -12,8 +12,9 @@
 </div>
 
 <div class="text-body">
-    <h1 class="display-4">Analytics Page</h1>
-    <a asp-page="Admin"><img src="~/img/Analytics.jpg" class="img-main"></a>
+    <div class="welcome" align="center">
+        <h2>Analytics Dashboard</h2>
+    </div>
 
     <div class="dropdown show" style="width: 100%;">
         <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="width: 100%;">
@@ -24,6 +25,69 @@
             <a class="dropdown-item" href="#">Bannan</a>
             <a class="dropdown-item" href="#">Cafeteria</a>
             <a class="dropdown-item" href="#">Financial</a>
+        </div>
+
+        <div class="container-fluid">
+            <div class="row d-flex justify-content-end">
+
+                <div class="col pull-left">
+                    <div class="accordion" id="accordionExample">
+                        <div class="card">
+                            <div class="card-header" id="headingOne">
+                                <h5 class="mb-0">
+                                    <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                        Visit Metrics
+                                    </button>
+                                </h5>
+                            </div>
+
+                            <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+                                <div class="card-body">
+                                    <fieldset>
+                                        <input type="checkbox" name="stay" value=true> Length of Stay (Seconds)<br>
+                                        <input type="checkbox" name="visit_total" value=true> Visit Count (Total)<br>
+                                        <input type="checkbox" name="visit_user" value=true> Visit Count (Per User)<br>
+                                    </fieldset>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-header" id="headingTwo">
+                                <h5 class="mb-0">
+                                    <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                        Abandonment Metrics
+                                    </button>
+                                </h5>
+                            </div>
+                            <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                                <div class="card-body">
+                                    <fieldset>
+                                        <input type="checkbox" name="stay" value=true> Skip Rate<br>
+                                        <input type="checkbox" name="visit_total" value=true> Tour Abandonment<br>
+                                    </fieldset>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-header" id="headingThree">
+                                <h5 class="mb-0">
+                                    <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                        Favorite Metrics
+                                    </button>
+                                </h5>
+                            </div>
+                            <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                                <div class="card-body">
+                                    <fieldset>
+                                        <input type="checkbox" name="stay" value=true> Favorite Count<br>
+                                        <input type="checkbox" name="visit_total" value=true> Share Count<br>
+                                    </fieldset>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 </div>
