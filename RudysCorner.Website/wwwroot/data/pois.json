@@ -4,8 +4,8 @@
     "img": "/img/POIs/bannan1.jpg",
     "Title": "Bannan Engineering",
     "Description": "The home of computer science classrooms",
-    "LongDescription": "The home of computer science classrooms",
-    "NextStop": "FIN",
+    "LongDescription": "The Bannan Engineering building is one of the two Bannan buildings on campus. ENGR is home to the College of Science and Engineering. It contains numerous classrooms, hands-on work spaces, the Wyckoff Auditorium, and on the 6th floor, the University Budget Office.",
+    "NextStop": "LIB",
     "FAQ": [
       "What is your quest?",
       "What is your favorite color",
@@ -22,15 +22,17 @@
     "img": "/img/POIs/cafeteria1.jpg",
     "Title": "The Cafeteria",
     "Description": "Where the food is!",
-    "LongDescription": "",
+    "LongDescription": "The Student Center opened in October 2002 and plays an important role in campus life. On the bottom floor visitors will find an open fireplace lounge and the front desk. Cherry Street Market, Seattle University's primary dining hall, encompasses the entire second floor. The third floor also offers dining at the Hawk's Nest Bistro, as well as a game room and numerous offices. The Student Center is home to Campus Ministry, Student Development, Wellness and Health Promotion, the Office of the Dean of Students, and Redhawk Resource Hub. Center for Student Involvement, located on the third floor, houses the Graduate Student Council (GSC), Student Events and Activities Council (SEAC), and the Student Government of Seattle University (SGSU).",
     "NextStop": "BANN",
     "FAQ": [
       "What is your quest?",
-      "What is your favorite color"
+      "What is your favorite color",
+      "What is the fully burdened..."
     ],
     "Answers": [
       "To seek the holy grail",
-      "Green"
+      "Green",
+      "I don't aghhhhhhhhhhhhhhh"
     ]
   },
   {
@@ -38,15 +40,53 @@
     "img": "/img/POIs/vihilbert2.jpg",
     "Title": "Student Financial Services",
     "Description": "Where the money is!",
-    "LongDescription": "Where the money is!",
+    "LongDescription": "Located at the edge of campus on Madison, near 12th Avenue, Vi Hilbert Hall opened in fall 2018. Named after Vi Hilbert, this new student housing community pays homage to the woman who devoted much of her life to keeping the Northwest native tribe of Lushootseed’s culture, language and stories alive. Also home to the division of Enrollment Services (which includes Registrar, Student Financial Services, Undergraduate Admissions, and Graduate Admissions), prospective students and their families touring Seattle University can expect an informational presentation at this building.",
     "NextStop": "CAFE",
     "FAQ": [
       "What is your quest?",
-      "What is your favorite color"
+      "What is your favorite color",
+      "What is the fully burdened..."
     ],
     "Answers": [
       "To seek the holy grail",
-      "Green"
+      "Green",
+      "I don't aghhhhhhhhhhhhhhh"
+    ]
+  },
+  {
+    "Id": "LIB",
+    "img": "/img/POIs/library2.jpg",
+    "Title": "Library",
+    "Description": "Where the books are!",
+    "LongDescription": "Originally built in 1966 and renovated in 2010, the Lemieux Library & McGoldrick Learning Commons combines new construction and renovation to offer a state-of-the-art facility of approximately 125,000 square feet. The library offers a number of services including research librarians with specialized focuses, the Math Lab for drop-in help with lower division mathematics courses, Learning Assistance Programs for tutoring and developing learning methods, and the Writing Center for assistance with writing assignments. Students can take advantage of individual and group study rooms, computer labs, reading rooms, and the Media Production Center which offers tools, training, and support for creating high quality creative content. The Byte, located on the second floor, is a good place to take a study break and grab a snack or drink. The Lemieux Library gets quieter as you move up the floors, with the sixth and top floor offering a completely silent reading space and housing Seattle University's special collections.",
+    "NextStop": "ENG",
+    "FAQ": [
+      "What is your quest?",
+      "What is your favorite color",
+      "What is the fully burdened..."
+    ],
+    "Answers": [
+      "To seek the holy grail",
+      "Green",
+      "I don't aghhhhhhhhhhhhhhh"
+    ]
+  },
+  {
+    "Id": "ENG",
+    "img": "/img/POIs/eng1.jpg",
+    "Title": "Engineering Building",
+    "Description": "Coming Soon!",
+    "LongDescription": "Seattle University prepared to break ground Thursday on what it is calling the “new heart” of its Capitol Hill campus, a Center for Science & Innovation that will be the largest-ever capital project for the 128-year-old institution. Facing unprecedented enrollment demand in science, technology, engineering and math (STEM) disciplines over the past decade, Seattle U is starting construction this summer on a new five-story, 111,000-square foot building with a price tag of $100 million. The CSI, located at the corner of 12th Avenue and East Marion Street, is being called a “gateway” to the 50-acre campus and is scheduled to open in 2021. Two renovated buildings will follow in 2023.",
+    "NextStop": "FIN",
+    "FAQ": [
+      "What is your quest?",
+      "What is your favorite color",
+      "What is the fully burdened..."
+    ],
+    "Answers": [
+      "To seek the holy grail",
+      "Green",
+      "I don't aghhhhhhhhhhhhhhh"
     ]
   }
 ]
