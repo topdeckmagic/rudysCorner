@@ -33,6 +33,7 @@ $(document).click(function (ev) {
     if (!$target.closest('#share-dialog').length && $('#share-dialog').is(":visible")) {
         $('#share-dialog').hide();
         $("main").css("opacity", "1");
+        $("main").css("pointer-events", "all");
     }
 });
 
@@ -41,5 +42,6 @@ function displayShareDialog(ev) {
     setTimeout(function () {
         $("#share-dialog").css("display", "block");
         $("main").css("opacity", "0.25");
+        $("main").css("pointer-events", "none");
     }, 50);
 }
