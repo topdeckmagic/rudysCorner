@@ -19,7 +19,7 @@
             <div class="left">
                 <img class="thumbnail" src="~/img/POIs/bannan1.jpg" />
                 <a href="#" class="follow-up-icon" onclick="toggleFavorite(event)"><img id="favorite-icon1" src="~/img/POIs/favorited.png" /></a>
-                <a href="#" class="follow-up-icon" onclick="shareFavorite(event)"><img id="share-icon1" src="~/img/POIs/share.png" /></a>
+                <a href="#" class="follow-up-icon" onclick="displayShareDialog(event)"><img id="share-icon1" src="~/img/POIs/share.png" /></a>
             </div>
             <div class="right">
                 <h2 class="H2">Bannan Engineering</h2>
@@ -30,7 +30,7 @@
             <div class="left">
                 <img class="thumbnail" src="~/img/POIs/vihilbert2.jpg" />
                 <a href="#" class="follow-up-icon" onclick="toggleFavorite(event)"><img id="favorite-icon1" src="~/img/POIs/favorited.png" /></a>
-                <a href="#" class="follow-up-icon" onclick="shareFavorite(event)"><img id="share-icon1" src="~/img/POIs/share.png" /></a>
+                <a href="#" class="follow-up-icon" onclick="displayShareDialog(event)"><img id="share-icon1" src="~/img/POIs/share.png" /></a>
             </div>
             <div class="right">
                 <h2 class="H2">Student Financial Services</h2>
@@ -40,7 +40,7 @@
     </div>
     <div class="share-all">
         <img class="icon" src="~/img/POIs/share.png" />
-        <a href="#" onclick="toggleFavorite(event)">Click this text here to share all of your favorited sites as one custom tour</a>
+        <a href="#" id="share-all" onclick="displayShareDialog(event)">Click this text here to share all of your favorited sites as one custom tour</a>
     </div>
     <div class="next-steps">
         <h1 class="H1">Suggested Next Steps</h1>

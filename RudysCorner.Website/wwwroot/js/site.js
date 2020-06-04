@@ -40,6 +40,11 @@ $(document).click(function (ev) {
 function displayShareDialog(ev) {
     ev.preventDefault();
     setTimeout(function () {
+        if (ev.target.id == "share-all") {
+            $(".share-email img").attr("src", "/img/all-share.png");
+        } else {
+            $(".share-email img").attr("src", "/img/bannan-share.png");
+        }
         $("#share-dialog").css("display", "block");
         $("main").css("opacity", "0.25");
         $("main").css("pointer-events", "none");
