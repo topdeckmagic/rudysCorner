@@ -428,15 +428,23 @@ ul {
     float: left;
 }
 
-.followup .follow-up-icon {
+.followup .follow-up-icon img {
     width: 24px;
+}
+
+.followup .follow-up-icon.share {
+    width: 22px;
+}
+
+.followup .follow-up-icon.share img {
+    width: 20px;
 }
 
 .followup .share-all .icon {
     width: 36px;
 }
 
-.followup .left .follow-up-icon {
+.followup .follow-up-icon {
     width: 24px;
     float: right;
 }
